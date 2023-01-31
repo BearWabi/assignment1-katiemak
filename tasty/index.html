@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1100e65106.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper flexContainer">
+            <nav>
+                <p><a href="./index.html">Tasty</a></p>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="welcome">
+                <h1>Welcome to<span>Tasty...</span></h1>
+            </div>
+        </div>
+        <div class="socials">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a><a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>    
+    </header>
+
+    <main>
+        <section class="about">
+            <div class="wrapper">
+                <h2>About Tasty</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta error qui voluptatum, incidunt voluptatem ullam blanditiis sequi quos iure quaerat aliquam debitis cumque dolorum quidem ab possimus? Tenetur, sapiente.</p>
+                <a class="more" href="#">Find out more</a>
+            </div>
+        </section>
+
+        <section class="links">
+            <div class="wrapper">
+                <ul>
+                    <a href="#">
+                        <li>
+                            <p><i class="fa-solid fa-utensils"></i>Recipes</p>  
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <p><i class="fa-solid fa-book-open"></i>Cooking Tips</p> 
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <p><i class="fa-solid fa-envelope"></i>Contact</p>  
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="wrapper">
+                <ul>
+                    <li><img src="./tasty-assets/asset-2.jpg" alt="lemon and blueberries"></li>
+                    <li><img src="./tasty-assets/asset-3.jpg" alt="deep fried fish and salad"></li>
+                    <li class="hide"><img src="./tasty-assets/asset-4.jpg" alt="two bowls of vegetable soup"></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="content1">
+            <div class="wrapper flexContainer">
+                <div class="textBox">
+                    <h2>Cooking Tips</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem expedita voluptas magnam optio, dolor quaerat fugiat rerum.</p>
+                    <a class="more" href="#">Read More</a> 
+                </div>
+            </div>
+        </section>
+        <section class="content2">
+            <div class="wrapper flexContainer">
+                <div class="textBox">
+                    <h2>Popular Recipes</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit cupiditate nesciunt numquam consectetur sunt maiores voluptas.</p> 
+                    <a class="more" href="#">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="bio">
+            <div class="wrapper flexContainer">
+                <figure>
+                    <img src="./tasty-assets/asset-7.jpg" alt="portrait of the cook">
+                </figure>
+                <div class="bioText">
+                    <h2>Meet the Cook</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ratione delectus amet reprehenderit, dicta voluptatem dolor, aperiam nemo quibusdam cum ducimus possimus ad laborum? Consequatur magni aspernatur nisi voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda consequatur officia commodi voluptas dolorum pariatur. Enim maxime vero cumque, sunt voluptates delectus esse earum magnam consectetur error id cupiditate numquam!</p>
+                    <a class="more" href="#">Find out more</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>        
+        <nav>
+            <div class="wrapper">
+                <ul class="navTopic">
+                    <li class="topicDetails contact">Contact
+                        <ul>
+                            <li>info@email.com</li>
+                            <li>123-456-7890</li>
+                            <li>123 some road,<span>Toronto.ON</span></li>
+                        </ul>
+                    </li>
+                    <li class="topicDetails pages">Pages
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li class="aboutB"><a href="#">About</a></li>
+                            <li class="blogB"><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </li>
+                    <li class="topicDetails posts">Recent posts
+                        <ul>
+                            <li><a href="#">Lemon Pound Cake</a></li>
+                            <li><a href="#">Spaghetti Squash</a></li>
+                            <li><a href="#">Sugar Free Lemonade</a></li>
+                        </ul>
+                    </li>
+                    <li class="topicDetails subscribe">Stay Updated
+                        <ul>
+                            <li>Subscribe to our newsletter to stay updated.</li>
+                            <li>
+                                <label for="email" class="sr-only"></label>
+                                <input type="email" placeholder="email address" id="email"><button>Subscribe</button>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>
